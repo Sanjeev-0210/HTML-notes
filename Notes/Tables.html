@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h2>Tables</h2>
+    <ul>
+        <li>Tables are used to display data in the form of rows and columns.</li>
+        <li><b>< Table> tag</b> is used to define the table on the webpages.</li>
+        <li>The rows for the table are created  using <mark>< tr></mark> tag.</li>
+        <li><mark>< th></mark> tag displays the heading of the table and <mark>< td></mark> tag displays the data for the headings.</li>
+    </ul>
+    <h3><u>Syntax:</u></h3>
+    <p>
+        < table> <br>
+            < tr> <br>
+                < th> <i>heading</i>  < /th> <br>
+            < /tr> <br>
+            < tr> <br>
+                < td> <i>data</i>  < /td> <br>
+            < /tr> <br>
+        < /table> 
+    </p>
+
+    <h3><u>Rowspan & Colspan:</u></h3>
+    <p>
+        - These Attributes that allows a single cell of a table to occupay more than one row or the column.
+     <br><br>
+        <b>E.g:-</b>
+        <br> < tr> <br>
+            < th rowspan="3">  < /th> <br>
+            < th colspan="2">  < /th> <br>
+            < th rowspan="3">  < /th> <br>
+        < /tr>
+    </p>
+
+    <table border="1" height="150" width="300">
+        <tr>
+            <th rowspan="3"> 3 </th>
+            <th colspan="2"> 2 </th>
+            <th rowspan="3"> 3 </th>
+        </tr>
+        <tr>
+            <th> 1 </th>
+            <th> 1 </th>
+        </tr>
+        <tr>
+            <th> 1 </th>
+            <th> 1 </th>
+        </tr>
+    </table>
+</body>
+</html>
